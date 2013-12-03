@@ -20,6 +20,14 @@ public class MyLine {
 
     }
 
+    public MyLine(int x1, int y1, int x2, int y2) {
+
+        setX1(x1);
+        setY1(y1);
+        setX2(x2);
+        setY2(y2);
+    }
+
     public int getX1() {
         return x1;
     }
@@ -34,14 +42,6 @@ public class MyLine {
 
     public int getY2() {
         return y2;
-    }
-
-    public MyLine(int x1, int y1, int x2, int y2) {
-
-        setX1(x1);
-        setY1(y1);
-        setX2(x2);
-        setY2(y2);
     }
 
 
@@ -67,5 +67,6 @@ public class MyLine {
 
     public void draw(Graphics g) {
         g.drawLine(x1, y1, x2, y2);
+        System.out.println("inside myline draw");
     }
 }

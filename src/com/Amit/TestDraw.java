@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TestDraw extends JApplet {
-    private MyLine[] line;
+    private static MyLine[] line;
 
     public void init() {
 
