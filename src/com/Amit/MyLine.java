@@ -1,11 +1,15 @@
 package com.Amit;
 
+<<<<<<< HEAD
 import java.awt.*;
 
+=======
+>>>>>>> b803448... Initial commit
 /**
  * Created by qlogy on 12/3/13.
  */
 public class MyLine {
+<<<<<<< HEAD
 
     private int y1;
     private int x2;
@@ -69,4 +73,5 @@ public class MyLine {
         g.drawLine(x1, y1, x2, y2);
         System.out.println("inside myline draw");
     }
+
 }

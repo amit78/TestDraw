@@ -1,6 +1,7 @@
 package com.Amit;
 
 import javax.swing.*;
+<<<<<<< HEAD
 import java.awt.*;
 
 public class TestDraw extends JApplet {
@@ -27,5 +28,6 @@ public class TestDraw extends JApplet {
         for (int count = 0; count < line.length; count++) {
             line[count].draw(g);
         }
+
     }
 }
